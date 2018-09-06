@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    <h1>Vuex example</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/action">Action</router-link>
     </div>
     <router-view/>
   </div>
@@ -27,5 +28,27 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.component-c {
+  background-color: grey;
+}
+.puppy-btn {
+  width: 150px;
+}
+.puppy-img {
+  max-height: 300px;
+}
+.component-b {
+  background-color: lightblue;
+}
+.component-a {
+  background-color: purple;
+  color: white;
+}
+button {
+  width: 50px;
+  font-size: 20px;
+  margin: 0 5px;
 }
 </style>
