@@ -1,5 +1,7 @@
 # vuex-preso
 
+Clone me down and start me up!
+
 ## Project setup
 ```
 npm install
